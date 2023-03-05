@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"\>
+        <meta name="keywords" content=""\>
+        <meta name="description" content=""\>
+        <title>Emiliano Jim</title>
+
+        <link rel="stylesheet" href=""\>
+    </head>
+    <body>
+        <header>
+            <a href=""><img src="" alt="logo"></a>
+            <h1>Pagina de Emi</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./tareas.html">Pendientes</a></li>
+                    <li><a href="./notas.html">Notas</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <h1>Contacto</h1>
+
+            <!--formulario-->
+            <form action="./contacto.html" method="post">
+                <p>
+                    <label>Nombre: <input type="text" name="nombre" value="" placeholder="escribe tu nombre..."></label>
+                </p>
+                <p>
+                    <label>Comentario: <textarea name="comentarios" placeholder="comentario..."></textarea></label>
+                </p>
+                <p>
+                    <label>Qué tipo de comentario es?
+                        <select>
+                            <option selected>Queja</option>
+                            <option>Crítica Constructiva</option>
+                            <option>Comentario de amor &lt3</option>
+                            <option>Optimización de página &lt&gt</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>Qué tan conforme te sentiste con mi página?
+                        <input type="range" min="0" max="5">
+                    </label>
+                </p>
+
+                <table>
+                    <caption>Qué te gustó de la página?</caption>
+                    <thead>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Diseño</td>
+                            <td><input name="calificacion" type="checkbox" value="disenio"></td>
+                        </tr>
+                        <tr>
+                            <td>Contenido</td>
+                            <td><input name="calificacion" type="checkbox" value="contenido"></td>
+                        </tr>
+                        <tr>
+                            <td>Herramientas de desarrollo</td>
+                            <td><input name="calificacion" type="checkbox" value="herramientas"></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+
+                    </tfoot>
+                </table>
+
+                <p>
+                    <strong>Satisfaccion</strong>
+                    <p></p>
+                    <label>Nada satisfecho <input name="satisfaccion" type="radio" value="nada-satisfecho"></label>
+                    <label>Un poco satisfecho <input name="satisfaccion" type="radio" value="poco-satisfecho"></label>
+                    <label>Satisfecho <input name="satisfaccion" type="radio" value="satisfecho"></label>
+                    <label>Muy satisfecho <input name="satisfaccion" type="radio" value="muy-satisfecho"></label>
+                </p>
+
+                <p>
+                    <input type="submit" name="enviar" value="Enviar">
+                    <input type="reset" name="reiniciar" value="borrar">
+                </p>
+
+                <h2>Envía un correo</h2>
+                <p>
+                    <a href="mailto:emilianokaleb@gmail.com">Mi correo :D</a>
+                </p>
+                
+            </form>
+
+        </main>
+
+        <footer>
+            <ul>
+                <li><a href=""><img src="" alt="facebook de emi"></a></li>
+                <li><a href=""><img src="" alt="discord de emi"></a></li>
+                
+            </ul>
+        </footer>
+    </body>
+</html>
